@@ -11,7 +11,7 @@
  }
 
  table {
- 	border: 2px solid #ff4dd8; /* formatto bordo tabella: linea tratteggiata e colore */
+ 	border: 2px solid #ff4dd8; /* formatto bordo tabella */
 	background-color: lightgrey; /* sovrascrivo rigo 4 */
 	/* coppia di comandi per centrare una tabella da CSS */
 	margin-left: auto;
@@ -20,7 +20,17 @@
 	height: auto;
  }
  
+ span {
+ 	font-weight: bold;
+ }
+ 
+ a {
+ 	float: right;
+ 	padding-right: 20px;
+ }
+ 
  td {
+ 	border: 1px solid #ff4dd8;
  	text-align: center;
  }
  
