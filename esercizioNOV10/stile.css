@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+ body{
+	background-color: lightgrey;
+}
+
+ caption {
+ 	font-family: math;
+ 	font-size: 28px;
+ 	padding: 5px;
+ }
+
+ table {
+ 	border: 2px solid #ff4dd8; /* formatto bordo tabella: linea tratteggiata e colore */
+	background-color: lightgrey; /* sovrascrivo rigo 4 */
+	/* coppia di comandi per centrare una tabella da CSS */
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: auto;
+ }
+ 
+ td {
+ 	text-align: center;
+ }
+ 
+ img {
+ 	border: 3px solid #eb8900;
+ 	width: 200px;
+	height: 280px;
+ }
